@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "preinstall": "npm i node-addon-api",
         "test": "echo \"Error: no test specified\" && exit 1",
         "install": "node-gyp rebuild",
         "compile": "node-gyp rebuild"
@@ -12,8 +13,8 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "node-addon-api": "^4.1.0",
-        "node-gyp": "^3.8.0"
+        "node-addon-api": "^4.3.0",
+        "node-gyp": "^8.4.0"
     },
     "devDependencies": {
         "electron-rebuild": "^3.2.7"

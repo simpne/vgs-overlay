@@ -9,7 +9,7 @@
                 "./src/3rd",
                 "./src/3rd/boost",
                 "./src/json",
-                "<!@(node -p \"require('node-addon-api').include\")"
+                "<!@(node -p \"require(\'node-addon-api\').include\")"
             ],
             "sources": [
                 "./src/ipc/tinyipc.h",
