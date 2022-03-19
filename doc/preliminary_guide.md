@@ -24,3 +24,18 @@ Software necessario:
     7. `npm run compile:electron`.
     8. `npm run build`.
     9. `npm run start`.
+
+## Struttura del progetto
+
+### client
+
+questa cartella contiene l`applicazione Electron, il fulcro della nostra applicazione. In particolare la sotto-cartella dist contiene (e dovrà contenere) i file HTML necessari per far funzionare la nostra applicazione.
+
+### electron-overlay e node-ovhook
+
+sono moduli .dll necessari per la creazione di un nuovo componente Node.js in Windows, sono fondamentali per il funzionamento dell`applicazione (teoricamente non vanno toccati una volta buildati, ma sarà da controllare).
+
+### game-overlay
+
+è il modulo di node.js vero e proprio, che permette di disegnare l'overlay. 
+
