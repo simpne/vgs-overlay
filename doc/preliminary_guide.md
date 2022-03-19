@@ -18,9 +18,9 @@ Software necessario:
 4. Eseguire le seguenti istruzioni:
     1. `npm config set msvs_version 2022`.
     2. `cd client`.
-    3. `npm link ../electron-overlay`.
-    4. `npm link ../node-ovhook`.
-    5. `npm i`.
-    6. `npm run compile:electron`.
-    7. `npm run build`.
-    8. `npm run start`.
+    3. `npm link ../electron-overlay`, nel caso di errore -> `npm update --force`.
+    5. `npm link ../node-ovhook`.
+    6. `npm i`.
+    7. `npm run compile:electron`.
+    8. `npm run build`.
+    9. `npm run start`.
