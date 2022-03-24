@@ -1,0 +1,50 @@
+{
+  "npc": {
+    "Varre": {
+      "steps": [
+        {
+          "id": 1,
+          "grace": "Limgrave",
+          "tp": "First Step",
+          "todo": "Exhaust Dialogues",
+          "result": "Lore",
+          "when": "Before Margitt"
+        },
+        {
+          "id": 2,
+          "grace": "Liurnia",
+          "tp": "Rose Church",
+          "todo": "Exhaust Dialogues",
+          "result": "Lore",
+          "when": "After Godrick"
+        }
+      ]
+    },
+    "Sellen": {
+      "steps": [
+        {
+          "id": 1,
+          "grace": "Limgrave",
+          "tp": "Waypoint Ruins",
+          "todo": "Become her apprentice",
+          "result": "Lore",
+          "when": "Before Margitt"
+        },
+        {
+          "id": 2,
+          "grace": "Liurnia",
+          "tp": "Waypoint Ruins",
+          "todo": "Find three scrolls",
+          "result": "New sorceries & lore",
+          "when": "Before Margitt"
+        }
+      ]
+    }
+  },
+  "player": {
+    "lastCheckedNpc": null,
+    "npc": {
+      "Varre": null 
+    }
+  }
+}
