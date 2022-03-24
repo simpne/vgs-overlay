@@ -32,7 +32,7 @@ so with the modules, basicly what we need to do is
     3. copy `n_ovhelper.exe` and `n_overlay.dll` to `node_modules/node-ovhook/build/Release` so node-ovhook can find them.
 1. prepare a game
 1. the electron app
-    1. Create an electorn app
+    1. Create an electorn app (se "react-enabled" -> https://www.developersmaggioli.it/blog/realizzare-una-electron-app-sfruttando-react/)
     2. import `electron-overlay` addon (as `IOverlay` for example),
         1. use `IOverlay.start()` to start the overlay server
         2. set up hotkeys and event callbacks (`game.input` is the most important one)
